@@ -1,0 +1,22 @@
+#ui {
+	position:fixed;
+	right:0;top:0;
+	z-index:25000;
+	padding:5px;
+	background:#ffffff80;
+	border-radius:0 0 0 5px;
+}
+#ui * {
+	outline:0;
+}
+#ui button {
+	border-radius:4px;
+	background:white;border:0;
+	font-size:14px;
+	padding:10px;
+}
+#ui button:active {
+	background:yellow;
+}
+#ui button.simstate {width:60px;}
+#ui button.galg {width:60px;}
